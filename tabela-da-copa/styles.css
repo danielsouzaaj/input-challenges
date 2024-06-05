@@ -1,0 +1,100 @@
+:root {
+    --clr-bg-body: #1B1B1E;
+    --clr-tr-border: #313335;
+    --clr-bg-tr-hover: #313335;
+    --clr-bg-team: #1B1B1E;
+    --clr-text: #9e9e9e;
+    --ff-default: "Roboto", sans-serif;
+
+    --fw-500: 500;
+    --fw-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-bg-body);
+    font-family: var(--ff-default);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: var(--fw-500);
+    color: var(--clr-text);
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: var(--fw-700);
+    margin-bottom: 2.5rem;
+}
+
+.table {
+    width: 31.25rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table-title {
+    font-size: 1.5rem;
+    font-weight: var(--fw-700);
+    text-align: left;
+    margin-bottom: 0.625rem;
+}
+
+.table-head {
+    height: 2rem;
+}
+
+.table-head th {
+    font-size: 0.8125rem;
+    font-weight: var(--fw-500);
+}
+
+.table-row {
+    height: 2.75rem;
+    border-top: 0.0625rem solid var(--clr-tr-border);
+}
+
+.table-row:hover {
+    background-color: var(--clr-bg-tr-hover);
+}
+
+.team-headline {
+    text-align: left;
+}
+
+.team-content {
+    background-color: var(--clr-bg-team);
+    width: 80%;
+    height: 2.75rem;
+    padding-left: 0.625rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.625rem;
+}
+
+.flag {
+    width: 1.75rem;
+    height: 1.75rem;
+    overflow: hidden;
+}
+
+.number,
+.country {
+    font-weight: var(--fw-700);
+}
