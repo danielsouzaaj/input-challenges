@@ -1,0 +1,75 @@
+:root {
+    --clr-bg-box: #686D76;
+    --clr-bg-text: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container {
+    width: 23rem;
+    height: 70%;
+    flex-direction: column;
+}
+
+.flex-row {
+    min-height: 30%;
+}
+
+.middle-row {
+    flex: 1;
+}
+
+.wrapper {
+    flex-direction: column;
+}
+
+.box {
+    background-color: var(--clr-bg-box);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.box--0,
+.wrapper,
+.box--2,
+.box--3,
+.box--5,
+.box--6 {
+    flex: 1;
+}
+
+.box--4 {
+    min-height: 100%;
+}
+
+.box--1,
+.container-box {
+    height: 50%;
+}
+
+.text {
+    background-color: var(--clr-bg-text);
+    padding: 0.3125rem 0.625rem;
+    border-radius: 50%;
+}
