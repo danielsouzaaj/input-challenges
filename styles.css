@@ -1,0 +1,86 @@
+:root {
+    --ff-default: "Roboto", sans-serif;
+    --ff-title: "Rowdies", sans-serif;
+
+    --fs-default: 1rem;
+    --fs-title: 2.5rem;
+    --fs-list-title: 2rem;
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-default);
+    font-size: var(--fs-default);
+    font-weight: var(--fw-400);
+}
+
+/* Text styles */
+
+.title, .list-title{
+    font-family: var(--ff-title);
+    font-weight: var(--fw-700);
+}
+
+.title {
+    font-size: var(--fs-title);
+}
+
+.list-title {
+    font-size: var(--fs-list-title);
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: var(--fw-700);
+}
+
+/* Layout styles */
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-block {
+    max-width: 50%;
+}
+
+/* General styles */
+
+.title, .list-title {
+    margin-bottom: 1.5rem;
+}
+
+.paragraph {
+    margin-bottom: 1rem;
+}
+
+.list li {
+    margin-bottom: 1rem;
+}
+
+/* Media query */
+
+@media (max-width: 500px) {
+
+    .wrapper {
+        padding: 0 1.5rem;
+    }
+
+    .text-block {
+        max-width: 100%;
+    }
+
+}
