@@ -45,3 +45,12 @@ html, body {
     background-color: var(--clr-bg-footer);
     min-height: 10%;
 }
+
+.item {
+    padding: 20px;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
