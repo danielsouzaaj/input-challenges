@@ -1,0 +1,84 @@
+:root {
+    --clr-black: #18161F;
+    --clr-gray: #787490;
+    --clr-light-gray: #D6D4E2;
+    --clr-withe: #FFFFFF;
+
+    --ff-default: "Space Grotesk", sans-serif;
+
+    --fw-500: 500;
+    --fw-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--clr-light-gray);
+    color: var(--clr-gray);
+    font-family: var(--ff-default);
+    height: 100%;
+}
+
+/* Text styles */
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: var(--fw-500);
+}
+
+.card-price {
+    color: var(--clr-black);
+    font-size: 2rem;
+    font-weight: var(--fw-700);
+}
+
+/* General styles */
+
+.wrapper {
+    min-height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--clr-withe);
+    border-radius: 2rem;
+    cursor: pointer;
+    max-width: 208px;
+    padding: 2rem 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-image {
+    margin-bottom: 0.75rem;
+}
+
+.card-image svg {
+    stroke: var(--clr-black);
+}
+
+.card:hover {
+    background-color: var(--clr-black);
+}
+
+.card:hover .card-price {
+    color: var(--clr-withe);
+}
+
+.card:hover .card-image svg{
+    stroke: var(--clr-withe);
+}
