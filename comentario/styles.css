@@ -29,22 +29,7 @@ body {
     font-weight: var(--fw-400);
 }
 
-.wrapper {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.comment {
-    background-color: var(--clr-withe);
-    padding: 1.5rem 3.5rem;
-    border-radius: 2rem;
-
-    display: flex;
-    align-items: center;
-    column-gap: 2.5rem;
-}
+/* Text styles */
 
 .profile-name {
     font-size: 1.5rem;
@@ -63,4 +48,23 @@ body {
 
 .comment-time {
     color: var(--clr-gray);
+}
+
+/* General styles */
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment {
+    background-color: var(--clr-withe);
+    padding: 1.5rem 3.5rem;
+    border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
 }
