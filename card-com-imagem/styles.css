@@ -1,0 +1,85 @@
+:root {
+    --clr-black: #18161F;
+    --clr-gray: #787490;
+    --clr-light-gray: #D6D4E2;
+    --clr-white: #FFFFFF;
+
+    --ff-default: "Space Grotesk", sans-serif;
+
+    --fw-500: 500;
+    --fw-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--clr-light-gray);
+    color: var(--clr-black);
+    font-family: var(--ff-default);
+    font-size: 1rem;
+    font-weight: var(--fw-500);
+    line-height: 1.5;
+}
+
+/* Text styles */
+
+.card-title {
+    font-size: 2rem;
+    font-weight: var(--fw-700);
+    line-height: 1.25;
+}
+
+.post-time,
+.comment-number,
+.view-number {
+    color: var(--clr-gray);
+}
+
+/* General styles */
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--clr-white);
+    border-radius: 2rem;
+    max-width: 20rem;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.profile {
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment,
+.view {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
