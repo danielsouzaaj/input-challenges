@@ -51,7 +51,7 @@ body {
 }
 
 .card {
-    background-color: var(--clr-withe);
+    background-color: var(--clr-white);
     border-radius: 2rem;
     cursor: pointer;
     max-width: 208px;
@@ -76,9 +76,9 @@ body {
 }
 
 .card:hover .card-price {
-    color: var(--clr-withe);
+    color: var(--clr-white);
 }
 
 .card:hover .card-image svg{
-    stroke: var(--clr-withe);
+    stroke: var(--clr-white);
 }
