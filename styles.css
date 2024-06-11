@@ -65,9 +65,11 @@ body {
 .card {
     background-color: var(--clr-white);
     box-shadow: 8px 8px #3b3b3b;
+    border: 2px solid var(--clr-white);
     border-radius: 1.25rem;
     max-width: 344px;
     padding: 16px;
+    transition: border 0.5s ease;
 }
 
 .card:hover {
