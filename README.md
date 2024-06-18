@@ -24,4 +24,5 @@ Bem-vindo ao meu repositório Input Challenges! Aqui você encontrará uma cole�
 | 14 |[Hero input](https://github.com/danielsouzaaj/input-challenges/tree/main/Challenge14-hero-input)|[Live Demo](https://danielsouzaaj.github.io/input-challenges/Challenge14-hero-input/)|
 | 15 |[Stone clone](https://github.com/danielsouzaaj/input-challenges/tree/main/Challenge15-stone-clone)|[Live Demo](https://danielsouzaaj.github.io/input-challenges/Challenge15-stone-clone/)|
 | 16 |[Mercado pago clone](https://github.com/danielsouzaaj/input-challenges/tree/main/Challenge16-mercado-pago)|[Live Demo](https://danielsouzaaj.github.io/input-challenges/Challenge16-mercado-pago/)|
+| 17 |[MiaBeauty landing page](https://github.com/danielsouzaaj/input-challenges/tree/main/Challenge17-miabeauty)|[Live Demo](https://danielsouzaaj.github.io/input-challenges/Challenge17-miabeauty/)|
 
