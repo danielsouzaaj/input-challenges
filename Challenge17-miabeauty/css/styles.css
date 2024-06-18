@@ -159,7 +159,7 @@ body {
 }
 
 .map {
-    max-width: 100%;
+    width: 100%;
     vertical-align: bottom;
 }
 
@@ -170,6 +170,10 @@ body {
 
 .copyright {
     margin: 0.625rem 0;
+}
+
+.copyright-symbol {
+    display: block;
 }
 
 .social-media {
@@ -204,4 +208,177 @@ body {
     border: 0.125rem solid var(--clr-dark-primary);
     border-radius: 5.625rem;
     padding: 0.75rem 1.5rem;
+}
+
+@media (min-width: 1080px) {
+    
+    body {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* Text styles */
+
+    .headline {
+        color: var(--clr-dark-primary);
+        font-family: var(--ff-secondary);
+        font-weight: var(--fw-700);
+    }
+
+    .h-primary {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .h-secondary {
+        font-size: 44px;
+        line-height: 56px;
+        margin-top: 1rem;
+    }
+
+    .h-tertiary {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .overtitle {
+        color: var(--clr-purple);
+        font-size: 1rem;
+        font-weight: var(--fw-700);
+        line-height: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .btn-text {
+        color: #000000;
+        font-size: 1rem;
+        font-weight: var(--fw-700);
+        line-height: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.5%;
+    }
+
+    .card-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .address-text {
+        font-style: normal;
+    }
+
+    .copyright-text {
+        color: var(--clr-white-primary);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    /* General styles */
+
+    .container {
+        max-width: 1280px;
+        padding: 0 4.5rem;
+    }
+
+    .header .container {
+        padding: 1.5rem 4.5rem;
+    }
+
+    .hero .container {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        column-gap: 2.1875rem;
+    }
+
+    .hero-content {
+        margin: 0;
+        max-width: 34.3125rem;
+    }
+
+    .description {
+        margin: 1rem 0 2rem;
+    }
+
+    .hero-image {
+        max-width: 34.5rem;
+    }
+
+    .services {
+        padding: 6rem 0;
+    }
+
+    .services .container {
+        padding-top: 0;
+    }
+    
+    .services-cards {
+        margin: 3rem 0 0;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .card {
+        flex: 1;
+    }
+    
+    .location .container {
+        padding: 6rem 4.5rem 3rem;
+    }
+    
+    .address {
+        margin: 1.5rem 0 0;
+    }
+    
+    .address::before {
+        margin-right: 1rem;
+    }
+
+    .footer .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .copyright {
+        margin: 0.625rem 0 0;
+    }
+
+    .copyright-symbol {
+        display: inline;
+    }
+    
+    .social-media {
+        display: flex;
+        align-items: center;
+        column-gap: 0.8331rem;
+    }
+
+    /* Button styles */
+
+    .btn {
+        color: var(--clr-white-primary);
+        min-width: auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1.25rem;
+    }
+
+    .btn::before {
+        content: url(../images/whatsapp.svg);
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
+    }
+
+    .btn-header {
+        display: inline-block;
+        background-color: transparent;
+        border: 0.125rem solid var(--clr-dark-primary);
+        border-radius: 5.625rem;
+        padding: 0.75rem 1.5rem;
+    }
+
 }
