@@ -213,8 +213,8 @@ body {
 @media (min-width: 1080px) {
     
     body {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     /* Text styles */
@@ -226,19 +226,19 @@ body {
     }
 
     .h-primary {
-        font-size: 56px;
-        line-height: 64px;
+        font-size: 3.5rem;
+        line-height: 4rem;
     }
 
     .h-secondary {
-        font-size: 44px;
-        line-height: 56px;
+        font-size: 2.75rem;
+        line-height: 3.5rem;
         margin-top: 1rem;
     }
 
     .h-tertiary {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .overtitle {
