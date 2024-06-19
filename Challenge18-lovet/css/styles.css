@@ -17,8 +17,8 @@ body {
     color: var(--clr-blue-secondary);
     font-family: var(--ff-default);
     font-weight: var(--fw-400);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 /* Text styles */
@@ -29,13 +29,13 @@ body {
 }
 
 .hl-1 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .hl-2 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
 }
 
 .services .hl-2 {
@@ -43,8 +43,8 @@ body {
 }
 
 .hl-3 {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .hl.hl-3 {
@@ -53,9 +53,9 @@ body {
 
 .overtitle {
     color: var(--clr-green);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: var(--fw-800);
-    line-height: 16px;
+    line-height: 1rem;
     text-transform: uppercase;
 }
 
@@ -65,9 +65,9 @@ body {
 
 .sm {
     color: var(--clr-blue-primary);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: var(--fw-600);
-    line-height: 20px;
+    line-height: 1.25rem;
     text-transform: uppercase;
 }
 
@@ -77,8 +77,8 @@ body {
 
 .md {
     color: var(--clr-white-secondary);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .address {
@@ -92,7 +92,7 @@ body {
 /* General styles */
 
 .container {
-    max-width: 360px;
+    max-width: 22.5rem;
     padding: 0 1.25rem;
     margin: 0 auto;
 }
@@ -223,8 +223,8 @@ body {
 @media (min-width: 1080px) {
 
     body {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     /* Text styles */
@@ -235,34 +235,34 @@ body {
     }
 
     .hl-1 {
-        font-size: 56px;
-        line-height: 64px;
+        font-size: 3.5rem;
+        line-height: 4rem;
     }
 
     .hl-2 {
-        font-size: 44px;
-        line-height: 56px;
+        font-size: 2.75rem;
+        line-height: 3.5rem;
     }
 
     .overtitle {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .sm {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     /* General styles */
 
     .container {
         max-width: 1280px;
-        padding: 0 72px;
+        padding: 0 4.5rem;
     }
 
     .header {
-        padding: 24px 0;
+        padding: 1.5rem 0;
     }
 
     .hero .container {
@@ -272,15 +272,15 @@ body {
     }
 
     .hero-content {
-        max-width: 549px;
+        max-width: 34.3125rem;
     }
 
     .hero-image {
-        max-width: 478px;
+        max-width: 29.875rem;
     }
 
     .services {
-        padding: 96px 0;
+        padding: 6rem 0;
     }
 
     .overtitle {
@@ -289,7 +289,7 @@ body {
 
     .cards {
         flex-direction: row;
-        gap: 32px;
+        gap: 2rem;
     }
 
     .card {
